@@ -1,0 +1,492 @@
+fileFormatVersion: 2
+guid: 4a65ff1e314cac74399e26564476eb4f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 875
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f5ddcee072b4b4aa39b7e3cc5d7982
+      internalID: -557277689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 875
+        width: 37
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ae07ab72fff9e34f95d160b21841d20
+      internalID: -1189216698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _2
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 875
+        width: 34
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230b819f6338a1c4f96b8e3bbc8c1c68
+      internalID: 1900206268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _3
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 876
+        width: 40
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba16f752abf51b147afc4e83a3033df6
+      internalID: -1947827964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _4
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 875
+        width: 41
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5d8efe570d57240a4d8d63d4a6e2f0
+      internalID: 1038475878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _5
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 875
+        width: 39
+        height: 59
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5717a10a1ea40af49a1ef616b96dd650
+      internalID: -1848854850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _6
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 874
+        width: 38
+        height: 60
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d376b9165b2e0479332d6cab45720c
+      internalID: 79995643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _7
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 875
+        width: 37
+        height: 57
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ad72b62233b95469e1164e5c84b1a3
+      internalID: -1242448415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _8
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 746
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8b837005362014a99db298ba525b04
+      internalID: -269663859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _9
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 748
+        width: 47
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796126fa9a141bc44a07659ce5462f01
+      internalID: -1033244040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _10
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 748
+        width: 58
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092db66cad0ba7a4ca922407517988d6
+      internalID: 61497539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _11
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 747
+        width: 38
+        height: 56
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46e2a8a84b39fc438fa2daf3bcc41d7
+      internalID: -1790056603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _12
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 620
+        width: 37
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63da73d467b9f7244bbaedf4ee17b778
+      internalID: -1256713726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _13
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 635
+        width: 37
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cf997e9ba4d6a94ea2a4783655db690
+      internalID: -890906845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _14
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 620
+        width: 37
+        height: 55
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1def15363973a664e8b509932761271f
+      internalID: 1190806826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _15
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 617
+        width: 37
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 448eb8d0744c22d4e98106b36c2116ff
+      internalID: -2018287949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _0: -557277689
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _1: -1189216698
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _10: 61497539
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _11: -1790056603
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _12: -1256713726
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _13: -890906845
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _14: 1190806826
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _15: -2018287949
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _2: 1900206268
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _3: -1947827964
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _4: 1038475878
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _5: -1848854850
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _6: 79995643
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _7: -1242448415
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _8: -269663859
+      GodoyRomeroSergio_A3D_AE2D3D_1T_spritesheet _9: -1033244040
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

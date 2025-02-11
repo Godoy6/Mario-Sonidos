@@ -33,7 +33,7 @@ public class Jump : MonoBehaviour
         if (Input.GetButtonDown("Jump") && IsGrounded()) // Si se presiona el botón de salto y Mario está en el suelo
         {
             isJumping = true; // Se marca que Mario está saltando
-            animator.SetBool("isJumping", true);
+            // animator.SetBool("isJumping", true);
             animator.Play("JUMPING");
         }
 
@@ -53,15 +53,17 @@ public class Jump : MonoBehaviour
 
     private bool IsGrounded() // Verifica si el personaje está tocando el suelo
     {
-        Collider2D collider = Physics2D.OverlapCircle(new Vector2(transform.position.x, transform.position.y - transform.localScale.y / 2), sphereRadius, groundMask); // Se usa OverlapCircle para verificar si hay colisión con el suelo
+        Collider2D collider = Physics2D.OverlapCircle(new Vector2(transform.position.x, transform.position.y), sphereRadius, groundMask); // Se usa OverlapCircle para verificar si hay colisión con el suelo
         return collider != null; // Si hay colisión, devuelve true (está en el suelo)
     }
 
+    /*
     private void OnDrawGizmos() // Dibuja una esfera en el editor de Unity para visualizar el radio de detección del suelo
     {
         Gizmos.color = Color.yellow; // Establecemos el color de la esfera
-        Gizmos.DrawWireSphere(new Vector2(transform.position.x, transform.position.y - transform.localScale.y / 2), sphereRadius); // Dibujamos la esfera de detección
+        Gizmos.DrawWireSphere(new Vector2(transform.position.x, transform.position.y), sphereRadius); // Dibujamos la esfera de detección
     }
+    */
 
     private void OnCollisionEnter2D(Collision2D col) // Detecta las colisiones con otros objetos
     {
@@ -70,6 +72,7 @@ public class Jump : MonoBehaviour
         if (goombaMovimiento != null)  // Si el Goomba tiene el script MovementIA
         {
             // Verificamos si Mario colisionó desde arriba
+
             if (transform.position.y > col.transform.position.y)  // Mario está por encima del Goomba
             {
                 Destroy(col.gameObject); // Destruir al Goomba si Mario salta sobre él
