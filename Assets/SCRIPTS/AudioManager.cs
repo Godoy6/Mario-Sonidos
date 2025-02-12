@@ -69,8 +69,7 @@ public class AudioManager : MonoBehaviour
             {
                 yield return new WaitForSeconds(0.3f);
             }
-            // Cuando el audio deja de sonar lo DESTRUIMOS
-            Destroy(source.gameObject);
+            Destroy(source.gameObject); // Cuando el audio deja de sonar lo DESTRUIMOS
         }
     }
 

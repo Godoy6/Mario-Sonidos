@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class DeathZone : MonoBehaviour
 {
+    public AudioClip Audio;
+
     void Start()
     {
         
@@ -21,6 +23,8 @@ public class DeathZone : MonoBehaviour
         if (lateralMovements != null) // Si el jugador tiene el script LateralMovements
         {
             lateralMovements.ReiniciarPosicion(); // Reiniciar la posición del jugador llamando el método de LateralMovements
+
+            AudioManager.instance.PlayAudio(Audio, "Roblox Death");
         }
     }
 }

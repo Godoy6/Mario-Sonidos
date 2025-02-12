@@ -7,6 +7,8 @@ public class Coin : MonoBehaviour
 {
     public int value = 1;
 
+    public AudioClip Audio;
+
     void Start()
     {
 
@@ -21,6 +23,8 @@ public class Coin : MonoBehaviour
     {
         if (collision.GetComponent<LateralMovements>())
         {
+            AudioManager.instance.PlayAudio(Audio, "Coin");
+
             GameManager.instance.AddCoin(value);
             Debug.Log("Monedas :     " + GameManager.instance.GetCoins());
             Destroy(gameObject);

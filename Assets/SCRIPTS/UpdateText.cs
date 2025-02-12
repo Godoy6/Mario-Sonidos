@@ -18,10 +18,10 @@ public class UpdateText : MonoBehaviour
         switch (variableToUpdate)
         {
             case InterfaceVariable.COINS:
-                textComponent.text = "MONEDAS: " + GameManager.instance.GetCoins();
+                textComponent.text = "Coins: " + GameManager.instance.GetCoins();
                 break;
             case InterfaceVariable.TIMES:
-                textComponent.text = "TIEMPO: " + GameManager.instance.GetTime();
+                textComponent.text = "Time: " + GameManager.instance.GetTime();
                 break;
         }
     }

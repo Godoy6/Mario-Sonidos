@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum InterfaceVariable { TIMES, COINS };
+public enum InterfaceVariable {TIMES,COINS};
 
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    private float currentGameTime = 0;
+    private float currentGameTime = 000.0f;
     private int coins = 0;
 
     void Awake()

@@ -11,6 +11,8 @@ public class Jump : MonoBehaviour
     public LayerMask groundMask; // Máscara para verificar si estamos sobre el suelo
     private Animator animator;
 
+    public AudioClip Audio;
+
 
     void Start()
     {
@@ -35,11 +37,11 @@ public class Jump : MonoBehaviour
             isJumping = true; // Se marca que Mario está saltando
             // animator.SetBool("isJumping", true);
             animator.Play("JUMPING");
+
+            AudioManager.instance.PlayAudio(Audio, "Mario Jump");
         }
 
         animator.SetBool("isJumping", !IsGrounded());
-
-
     }
 
     void ApplyYForce() // Aplica una fuerza hacia arriba para hacer el salto
