@@ -13,6 +13,8 @@ public class Jump : MonoBehaviour
 
     public AudioClip Audio;
 
+    private int value = 10;
+
 
     void Start()
     {
@@ -78,6 +80,8 @@ public class Jump : MonoBehaviour
             if (transform.position.y > col.transform.position.y)  // Mario está por encima del Goomba
             {
                 Destroy(col.gameObject); // Destruir al Goomba si Mario salta sobre él
+
+                GameManager.instance.AddCoin(value);
             }
             else
             {

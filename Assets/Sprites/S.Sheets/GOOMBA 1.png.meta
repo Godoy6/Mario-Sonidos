@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 153129f435b6fc54088f20bfaa68d55b
+guid: d7578ae0073328e4f9e7440de2129fb7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,17 +93,43 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GOOMBA_01
+      name: GOOMBA 1_1
       rect:
         serializedVersion: 2
-        x: 328
-        y: 40
-        width: 162
-        height: 160
+        x: 296
+        y: 6
+        width: 228
+        height: 229
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1f5ce963c7014a4e8c51b6c858614b5
-      internalID: 336640222
+      spriteID: 739cc800fcd22f043836f2ba98ae5b7f
+      internalID: 324649922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GOOMBA_00
+      name: GOOMBA 1_2
       rect:
         serializedVersion: 2
-        x: 119
-        y: 40
-        width: 162
-        height: 160
+        x: 593
+        y: 35
+        width: 227
+        height: 116
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +158,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6487d0870aef62842b26817987bb4a45
-      internalID: 213777388
+      spriteID: 69d2d85922940104d9838ed121bf13bb
+      internalID: 554089039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GOOMBA 1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 227
+        height: 229
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a674a40ee3bb0354d835e75c3333184d
+      internalID: -2082364631
       vertices: []
       indices: 
       edges: []
@@ -149,8 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GOOMBA_00: 213777388
-      GOOMBA_01: 336640222
+      GOOMBA 1_0: -2082364631
+      GOOMBA 1_1: 324649922
+      GOOMBA 1_2: 554089039
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
