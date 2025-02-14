@@ -22,14 +22,6 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene("SampleScene");  // Asegúrate de poner el nombre de tu escena de juego aquí
     }
 
-    public void QuitGame() // Función que se llama cuando se pulsa el botón "Salir"
-    {
-        // Salir del juego
-
-        Debug.Log("Salir del juego");
-        Application.Quit();
-    }
-
     public void ReturnToMainMenu()
     {
         // Cargar la escena del menú principal

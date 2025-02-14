@@ -13,15 +13,14 @@ public class BackgroundMusic : MonoBehaviour
             Debug.Log("Reproduciendo música de fondo");
             DontDestroyOnLoad(gameObject);
 
-            // Reproducir música de fondo en bucle
-            AudioManager.instance.PlayAudio(Audio, "Musica Fondo", isLoop: true);
+            // Cambiar el parámetro isLoop a true para que se repita la música
+            AudioManager.instance.PlayAudio(Audio, "Musica Fondo", true);  // Reproducción en bucle
         }
         else
         {
             Debug.LogError("AudioManager no está inicializado");
         }
     }
-
 
     void Update()
     {

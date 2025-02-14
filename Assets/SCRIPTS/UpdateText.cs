@@ -21,7 +21,7 @@ public class UpdateText : MonoBehaviour
                 textComponent.text = "Puntos: " + GameManager.instance.GetCoins();
                 break;
             case InterfaceVariable.TIMES:
-                textComponent.text = "Tiempo: " + GameManager.instance.GetTime().ToString("F2"); // Mostrar el tiempo con 1 decimal
+                textComponent.text = "Tiempo: " + GameManager.instance.GetTime().ToString("F2"); // Mostrar el tiempo con 2 decimal
                 break;
         }
     }
