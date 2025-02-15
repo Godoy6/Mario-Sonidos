@@ -11,7 +11,8 @@ public class Jump : MonoBehaviour
     public LayerMask groundMask; // Máscara para verificar si estamos sobre el suelo
     private Animator animator;
 
-    public AudioClip Audio;
+    public AudioClip JumpPlayer;
+    public AudioClip DeathGoomba;
 
     private int value = 10;
 
@@ -40,7 +41,7 @@ public class Jump : MonoBehaviour
             // animator.SetBool("isJumping", true);
             animator.Play("JUMPING");
 
-            AudioManager.instance.PlayAudio(Audio, "Mario Jump");
+            AudioManager.instance.PlayAudio(JumpPlayer, "JumpPlayer");
         }
 
         animator.SetBool("isJumping", !IsGrounded());
@@ -82,6 +83,8 @@ public class Jump : MonoBehaviour
                 Destroy(col.gameObject); // Destruir al Goomba si Mario salta sobre él
 
                 GameManager.instance.AddCoin(value);
+
+                AudioManager.instance.PlayAudio(DeathGoomba, "DeathGoomba");
             }
             else
             {

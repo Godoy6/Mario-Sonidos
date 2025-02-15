@@ -14,6 +14,6 @@ public class CameraMovement : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector3(player.position.x, altura, transform.position.z); // La cámara solo sigue al jugador en el eje X y mantiene la misma altura en el eje Y
+        transform.position = new Vector3(player.position.x,altura,transform.position.z); // La cámara solo sigue al jugador en el eje X y mantiene la misma altura en el eje Y
     }
 }

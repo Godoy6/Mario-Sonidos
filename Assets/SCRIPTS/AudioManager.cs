@@ -25,34 +25,25 @@ public class AudioManager : MonoBehaviour
         sounds = new List<AudioSource>();
     }
 
-    public AudioSource PlayAudio(AudioClip clip, string gameObjectName, bool isLoop = false, float volume = 1.0f)
+    public AudioSource PlayAudio(AudioClip clip,string gameObjectName,bool isLoop = false,float volume = 1.0f)
     {
-        // 1 - Crear EMPTY
-        GameObject nObject = new GameObject();
+        GameObject nObject = new GameObject(); // 1 - Crear EMPTY
 
-        // 2 - Ponerle NOMBRE
-        nObject.name = gameObjectName;
+        nObject.name = gameObjectName; // 2 - Ponerle NOMBRE
 
-        // 3 - Añadir el audio SOURCE
-        AudioSource audioSourceComponent = nObject.AddComponent<AudioSource>();
+        AudioSource audioSourceComponent = nObject.AddComponent<AudioSource>(); // 3 - Añadir el audio SOURCE
 
-        // 4 - Arrastrar audio CLIP
-        audioSourceComponent.clip = clip;
+        audioSourceComponent.clip = clip; // 4 - Arrastrar audio CLIP
 
-        // 5 - Seteamos el LOOP
-        audioSourceComponent.loop = isLoop;
+        audioSourceComponent.loop = isLoop; // 5 - Seteamos el LOOP
 
-        // 6 - Regular PROPIEDADES
-        audioSourceComponent.volume = volume;
+        audioSourceComponent.volume = volume; // 6 - Regular PROPIEDADES
 
-        // 7 - Añadimos el OBJETO a la LISTA
-        sounds.Add(audioSourceComponent);
+        sounds.Add(audioSourceComponent); // 7 - Añadimos el OBJETO a la LISTA
 
-        // 8 - QUE SUENE!!!
-        audioSourceComponent.Play();
+        audioSourceComponent.Play(); // 8 - QUE SUENE!!!
 
-        // 9 - Cuando deje de SONAR hay que DESTRUIRLO (>performance<)
-        StartCoroutine(WaitForAudio(audioSourceComponent));
+        StartCoroutine(WaitForAudio(audioSourceComponent)); // 9 - Cuando deje de SONAR hay que DESTRUIRLO (>performance<)
 
         return audioSourceComponent;
     }
