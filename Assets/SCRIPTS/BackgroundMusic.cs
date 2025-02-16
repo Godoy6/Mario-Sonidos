@@ -4,26 +4,19 @@ using UnityEngine;
 
 public class BackgroundMusic : MonoBehaviour
 {
-    public AudioClip Audio;
+    public AudioClip Audio;  // Referencia al clip de audio
 
     void Start()
     {
-        if (AudioManager.instance != null)
+        if (AudioManager.instance != null)  // Verifica si existe una instancia de "AudioManager"
         {
-            Debug.Log("Reproduciendo música de fondo");
-            DontDestroyOnLoad(gameObject);
-
-            // Cambiar el parámetro isLoop a true para que se repita la música
-            AudioManager.instance.PlayAudio(Audio, "Musica Fondo", true);  // Reproducción en bucle
-        }
-        else
-        {
-            Debug.LogError("AudioManager no está inicializado");
+            DontDestroyOnLoad(gameObject); // Hace que el objeto no se destruya al cargar una nueva escena
+            AudioManager.instance.PlayAudio(Audio , "Musica Fondo" , true); // Reproducción en bucle
         }
     }
 
     void Update()
     {
-
+        
     }
 }

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
-    public Transform player;  // Referencia al transform del jugador
-    private float altura = 0f; // Altura de la cámara, ajusta según sea necesario
+    public Transform player;  // Referencia al objeto del jugador
+    private float altura = 0f;  // Variable para mantener la altura de la cámara constante
 
     void Start()
     {
@@ -14,6 +14,6 @@ public class CameraMovement : MonoBehaviour
 
     void Update()
     {
-        transform.position = new Vector3(player.position.x,altura,transform.position.z); // La cámara solo sigue al jugador en el eje X y mantiene la misma altura en el eje Y
+        transform.position = new Vector3(player.position.x , altura , transform.position.z); // Actualiza la posición de la cámara para que siga al jugador solo en el eje X
     }
 }

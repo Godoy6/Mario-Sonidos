@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DeathZone : MonoBehaviour
 {
-    public AudioClip Audio;
+    public AudioClip Audio; // El clip de audio que se reproduce cuando el jugador entra en la zona de muerte
 
     void Start()
     {
@@ -16,15 +16,13 @@ public class DeathZone : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other) // Método que se ejecuta cuando otro objeto entra en el área del trigger de esta zona
     {
-        LateralMovements lateralMovements = other.GetComponent<LateralMovements>(); // Verificar si el objeto tiene el componente LateralMovements
-
-        if (lateralMovements != null) // Si el jugador tiene el script LateralMovements
+        LateralMovements lateralMovements = other.GetComponent<LateralMovements>(); // Intentamos obtener el componente "LateralMovements" del objeto que colisiona
+        if (lateralMovements != null) // Si el objeto que colisiona es el jugador
         {
-            lateralMovements.ReiniciarPosicion(); // Reiniciar la posición del jugador llamando el método de LateralMovements
-
-            AudioManager.instance.PlayAudio(Audio, "Roblox Death");
+            lateralMovements.ReiniciarPosicion(); // Llamamos al método para reiniciar la posición del jugador
+            AudioManager.instance.PlayAudio(Audio , "Death Zone"); // Reproducimos el sonido de muerte
         }
     }
 }

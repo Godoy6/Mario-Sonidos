@@ -15,17 +15,13 @@ public class MainMenu : MonoBehaviour
         
     }
 
-    public void StartGame() // Función que se llama cuando se pulsa el botón "Jugar"
+    public void StartGame() // Método para iniciar el juego, cargando la escena "SampleScene"
     {
-        // Cargar la escena de juego (asegúrate de que la escena esté en las opciones de Build Settings)
-
-        SceneManager.LoadScene("SampleScene");  // Asegúrate de poner el nombre de tu escena de juego aquí
+        SceneManager.LoadScene("SampleScene"); // Cargar la escena principal del juego
     }
 
-    public void ReturnToMainMenu()
+    public void ReturnToMainMenu() // Método para volver al menú principal, cargando la escena "Menu Inicio"
     {
-        // Cargar la escena del menú principal
-
-        SceneManager.LoadScene("Menu Inicio");  // Asegúrate de poner el nombre correcto de la escena del menú
+        SceneManager.LoadScene("Menu Inicio"); // Cargar la escena del menú principal
     }
 }
